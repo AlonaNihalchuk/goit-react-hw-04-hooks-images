@@ -47,7 +47,7 @@ class App extends React.Component {
         //     return { pictures: [...pictures, ...hits] };
         //   });
         // })
-        // чужое
+        // Алена
         // .then(({ data: { hits } }) =>
         //   this.setState((prevState) => ({
         //     pictures: [...prevState.pictures, ...mapper(hits)],
