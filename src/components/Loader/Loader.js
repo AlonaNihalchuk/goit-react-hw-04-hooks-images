@@ -1,6 +1,6 @@
 import styles from "./Loader.module.css";
 
-const Loader = () => {
+function Loader() {
   return (
     <div class={styles.spinner}>
       <div class="hollow-dots-spinner">
@@ -10,5 +10,5 @@ const Loader = () => {
       </div>
     </div>
   );
-};
+}
 export default Loader;

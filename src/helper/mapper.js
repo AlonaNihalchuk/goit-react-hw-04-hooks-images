@@ -1,4 +1,4 @@
-const mapper = (hits) => {
+function mapper(hits) {
   return hits.map(
     ({
       id: imageId,
@@ -9,8 +9,9 @@ const mapper = (hits) => {
       imageId,
       smallImg,
       largeImg,
+      tagsImg,
     })
   );
-};
+}
 
 export default mapper;
